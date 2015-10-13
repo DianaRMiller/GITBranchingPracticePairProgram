@@ -1,0 +1,11 @@
+.btn {
+  display: block;
+}
+
+#liberalanswer {
+  display: none;
+}
+
+#conservativeanswer {
+  display: none;
+}

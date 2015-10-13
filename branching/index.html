@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="scripts.js"></script>
+    <title>Are you a Liberal or Conservative?</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Party</h1>
+
+      <p>To give you an answer, we need to know a little about you:</p>
+
+      <form id="partyquestions" class="form-horizontal">
+        <label for="age">Age</label>
+        <select id="age">
+          <option value="under50">under50</option>
+          <option value="over50">over50</option>
+        </select>
+        <label for="gender">Are you a Male or Female?</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+        <label for="recycle">Do you recycle?</label>
+        <select id="recycle">
+          <option value="true">True</option>
+          <option value="false">False</option>
+        </select>
+        <label for="separation">Is Church separation and State important?</label>
+        <select id="separation">
+          <option value="true">True</option>
+          <option value="false">False</option>
+        </select>
+        <label for="government">You believe in a small government?</label>
+        <select id="government">
+          <option value="true">True</option>
+          <option value="false">False</option>
+        </select>
+          <label for="trump">Do you like Donald Trump?</label>
+          <select id="trump">
+            <option value="true">True</option>
+            <option value="false">False</option>
+          </select>
+          <label for="hillary">Do you like Hillary Clinton?</label>
+          <select id="hillary">
+            <option value="true">True</option>
+            <option value="false">False</option>
+          </select>
+          <label for="immigration">Should immigrants have equal rights?</label>
+          <select id="immigration">
+            <option value="true">True</option>
+            <option value="false">False</option>
+          </select>
+          <button type="submit" class="btn">Calculate my political party</button>
+        </form>
+
+
+        <div id="true">
+          <p>You most likely will be liberal.</p>
+        </div>
+
+        <div id="false">
+          <p>You most likely will be conservative.</p>
+        </div>
+
+
+      </div>
+    </div>
+  </body>
+</html>
